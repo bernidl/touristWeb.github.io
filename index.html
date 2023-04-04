@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ADVENTURE</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar">
+            <h1 class="nav-logo">ADVENTURE</h1>
+            <ul class="nav-links">
+                <li class="nav-active--home">Home<a href="#"></a></li>
+                <li><a href="#">Tours</a></li>
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">About</a></li>
+                <li class="ctn">Contact<a href="#"></a></li>
+            </ul>
+            <img src="./img/6367992.png" alt="" class="menu-btn">
+        </nav>
+        <header>
+            <div class="header-content">
+                <h2>Explore The Colorful World</h2>
+                <div class="header-content--line"></div>
+                <h1>A WONDERFUL GIFT</h1>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </header> 
+        <script>
+            const menuBtn = document.querySelector('.menu-btn')
+            const navlinks = document.querySelector('.nav-links')
+
+            menuBtn.addEventListener('click', ()=>{
+                navlinks.classList.toggle('mobile-menu')
+            })
+        </script>
+        <main>
+        </main>
+    </body>
+</html>
