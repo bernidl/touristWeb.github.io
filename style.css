@@ -311,9 +311,6 @@ footer p {
     .tours-container {
         flex-direction: column;
     }
-    .tours-container .ctn{
-
-    }
     .image-gallery {
         margin-top: 30px;
         justify-content: center;
